@@ -46,12 +46,8 @@ public class ScannerDialogFragment extends DialogFragment implements ZXingScanne
             }
         });
 
-//        List<BarcodeFormat> barcodeFormats = new ArrayList<BarcodeFormat>();
-//        barcodeFormats.add(BarcodeFormat.QR_CODE);
-//        mScannerView.setFormats(barcodeFormats);
         mScannerView.setResultHandler(this); // Register ourselves as a handler for scan results.
         mScannerView.startCamera();          // Start camera on resume
-
 
         return rootView;
     }
