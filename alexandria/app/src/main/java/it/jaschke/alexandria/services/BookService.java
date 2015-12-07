@@ -84,6 +84,9 @@ public class BookService extends IntentService {
                 null  // sort order
         );
 
+        if(bookEntry == null) {
+            return;
+        }
         if(bookEntry.getCount()>0){
             bookEntry.close();
             return;

@@ -26,6 +26,8 @@
     <string name="share_text">A must read book: </string>
     <string name="scan_dialog_title">Scan IBSN Barcode</string>
     <string name="scan_isbn">Scan ISBN code</string>
+    <string name="no_network">The network is not available to fetch book information from ISBN.</string>
+    <string name="alert_title">Error</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="about_text">This application gets book information from a Google API. All titles, cover images, and author information come from there.
     The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program. </string>
