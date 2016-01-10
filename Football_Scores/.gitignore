@@ -4,3 +4,10 @@
 /.idea/libraries
 .DS_Store
 /build
+
+#Mac specific
+.DS_Store
+.idea
+
+#impl files
+*.iml

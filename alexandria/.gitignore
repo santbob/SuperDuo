@@ -5,3 +5,10 @@
 .DS_Store
 /build
 *.iml
+
+#Mac specific
+.DS_Store
+.idea
+
+#impl files
+*.iml
