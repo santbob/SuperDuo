@@ -40,7 +40,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:contentDescription="@string/share_button_desc"
             android:drawableLeft="@android:drawable/ic_menu_share"
             android:drawableStart="@android:drawable/ic_menu_share"
             android:gravity="center"
