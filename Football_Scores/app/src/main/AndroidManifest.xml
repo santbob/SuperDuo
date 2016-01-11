@@ -23,7 +23,8 @@
 
         <provider
             android:name=".ScoresProvider"
-            android:authorities="barqsoft.footballscores" />
+            android:authorities="barqsoft.footballscores"
+            android:exported="false"/>
         <receiver
             android:name=".widgets.ScoresWidgetProvider"
             android:enabled="true"

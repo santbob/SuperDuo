@@ -45,7 +45,7 @@ public class ScoresWidgetProvider extends AppWidgetProvider {
                 setRemoteAdapterV11(context, views);
             }
 
-            Intent clickIntentTemplate = new Intent(context, MainActivity.class); // may be build a details screen and replace MainActivity with details activity
+            Intent clickIntentTemplate = new Intent(context, MainActivity.class); // may be build a details screen and replace MainActivity with details activity for a particular match.
 
             PendingIntent clickPendingIntentTemplate = TaskStackBuilder.create(context)
                     .addNextIntentWithParentStack(clickIntentTemplate)
