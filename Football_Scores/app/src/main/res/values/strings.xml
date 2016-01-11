@@ -40,5 +40,5 @@
     <string name="away_team_crest_image">Away Team Crest Logo</string>
     <string name="widget_title">Soccer Games Today</string>
     <string name="no_matches_for_the_day">No Matches for the day</string>
-    <string name="widget_score">%1$s : %2$s</string>
+    <string name="widget_score" translatable="false">%1$s : %2$s</string>
 </resources>
