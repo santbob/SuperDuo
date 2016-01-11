@@ -8,11 +8,6 @@
     <string name="today">Today</string>
     <string name="yesterday">Yesterday</string>
     <string name="tomorrow">Tomorrow</string>
-    <string name="champions_league">UEFA Champions League</string>
-    <string name="bundesliga">Bundesliga</string>
-    <string name="premierleague">Premier League</string>
-    <string name="primeradivison">Primera Division</string>
-    <string name="seriaa">Serie A</string>
     <string name="matchday_text">Match day</string>
     <string name="group_stage_text">Group stages</string>
     <string name="first_knockout_round">First knockout round</string>
@@ -42,4 +37,23 @@
     <string name="widget_title">Soccer Games Today</string>
     <string name="no_matches_for_the_day">No Matches for the day</string>
     <string name="widget_score" translatable="false">%1$s : %2$s</string>
+    <!--Club Names-->
+    <string name="arsenal" translatable="false">Arsenal London FC</string>
+    <string name="manchester_united" translatable="false">Manchester United FC</string>
+    <string name="everton" translatable="false">Everton FC</string>
+    <string name="swansea_city" translatable="false">Swansea City</string>
+    <string name="leicester_city" translatable="false">Leicester City</string>
+    <string name="west_ham" translatable="false">West Ham United FC</string>
+    <string name="tottenham_hotspur" translatable="false">Tottenham Hotspur FC</string>
+    <string name="sunderland" translatable="false">Sunderland AFC</string>
+    <string name="west_bromwich_albion" translatable="false">West Bromwich Albion</string>
+    <string name="stoke_city" translatable="false">Stoke City FC</string>
+
+    <!--League Names-->
+    <string name="champions_league">UEFA Champions League</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="premierleague">Premier League</string>
+    <string name="primeradivison">Primera Division</string>
+    <string name="seriaa">Serie A</string>
+    <string name="unknown_league">Not known League Please report</string>
 </resources>
