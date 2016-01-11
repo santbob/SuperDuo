@@ -2,6 +2,7 @@ package it.jaschke.alexandria;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -201,6 +202,11 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle(R.string.alert_title);
             builder.setMessage(R.string.no_network);
+            builder.setPositiveButton(R.string.okay, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
             AlertDialog dialog = builder.create();
             dialog.show();
         }

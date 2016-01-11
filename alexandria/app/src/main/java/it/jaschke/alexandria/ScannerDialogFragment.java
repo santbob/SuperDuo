@@ -42,7 +42,7 @@ public class ScannerDialogFragment extends DialogFragment implements ZXingScanne
         cancelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getDialog().dismiss();
+                dismiss();
             }
         });
 
@@ -54,10 +54,15 @@ public class ScannerDialogFragment extends DialogFragment implements ZXingScanne
 
     @Override
     public void handleResult(Result result) {
-        mScannerView.stopCamera();
         if (result != null && !TextUtils.isEmpty(result.getText())) {
-            getDialog().dismiss();
             listener.onDimiss(result.getText());
+            dismiss();
         }
+    }
+
+    @Override
+    public void dismiss() {
+        mScannerView.stopCamera();
+        super.dismiss();
     }
 }
