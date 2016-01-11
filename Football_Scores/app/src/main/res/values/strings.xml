@@ -38,5 +38,7 @@
     <string name="title_games_widget_today">Games Today</string>
     <string name="home_team_crest_image">Home Team Crest Logo</string>
     <string name="away_team_crest_image">Away Team Crest Logo</string>
-
+    <string name="widget_title">Soccer Games Today</string>
+    <string name="no_matches_for_the_day">No Matches for the day</string>
+    <string name="widget_score">%1$s : %2$s</string>
 </resources>
